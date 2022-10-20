@@ -67,6 +67,8 @@ nav ul li a {
     color: black;
     position: relative;
 }
+/*Animación menu item*/
+
 nav ul li a::before {
     content: '';
     position: absolute;
@@ -85,7 +87,7 @@ nav ul li a:hover::before {
     transform: scaleX(1);
     color: hwb(354 27% 6% / 0.946);
 }
-
+/*Fin de animacion menu item*/
 
 div.social-media .fa-brands {
     font-size: 1.5rem;
@@ -108,6 +110,8 @@ div.title {
     /*color: rgb(228, 101, 55,0.5);*/
     background-color: #dce7ef88;
 }
+
+/*Animación titulo header*/
 .title h1 {
     padding: 10px 30px 40px 30px;
     margin: auto;
@@ -130,6 +134,7 @@ div.title {
       background-position-x: 500%;
     }
   }
+  /*Fin de animación*/
   
 section.article {
     background-color: #dce7ef;
