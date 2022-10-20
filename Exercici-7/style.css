@@ -26,10 +26,10 @@ nav.menu {
     background-color: rgb(164, 164, 159);
     position: absolute;
     left: -480px;
-    top: 40px;
+    top: 38px;
     bottom: 0;
     text-align: center;
-   
+    z-index: 1000;
 }
 header .container-menu {
    
@@ -151,7 +151,12 @@ section.article {
     text-decoration: none;
     color: #535a5e;
 }
-
+.p-container {
+    display: flex;
+ }
+.p-container p {
+    margin: 5px;
+}
 .article1 h2, .article2 h2, .article3 h2, .article4 h2 {
     background-color: hwb(354 27% 6% / 0.946);
     color: white;
@@ -244,7 +249,7 @@ footer {
     div.logo img{
         display: block;
     }
-    #burger-menu {
+    #burger-menu, #close-menu {
         display: none;
     }
     nav.menu {
